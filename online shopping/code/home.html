@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<style type="text/css">
+.id1{font-size:40px; color:white}
+.id2{font-size:20px; color:white}
+.id3{font-size:15px; color:white}
+.id4{font-size:20px; color:black}
+.id5{font-size:25px; color:blue}
+
+</style>
+<script type="text/javascript">
+function val()
+{
+alert("Please sign in if u are a REGISTERED user and SIGN UP if u are a NEW USER ");
+}
+
+function fun1()
+{
+var a = document.f1.cuser.value;
+var b = document.f1.cpass.value;
+
+if(a=="")
+{
+alert("Enter your username");
+document.f1.cuser.focus();
+return false;
+}
+if(b=="")
+{
+alert("Enter your password");
+document.f1.cpass.focus();
+return false;
+}
+}
+
+function fun2()
+{
+var c = document.f2.auser.value;
+var d = document.f2.apass.value;
+
+if(c=="")
+{
+alert("Enter your username");
+document.f2.auser.focus();
+return false;
+}
+if(d=="")
+{
+alert("Enter your password");
+document.f2.apass.focus();
+return false;
+}
+}
+
+</script>
+<title>ONLINE SHOPPING</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#66CCFF">
+<table align="center" border="0" width="100%" height="100">
+<tr>
+<td>
+<table align="center"  bgcolor="#CC0000" width="100%" height="80%">
+<tr>
+<td align="center" class="id1">ABC  ELECTRONICS  PRIVATE  LIMITED</td>
+</tr>
+</table>
+<table align="center"  bgcolor="#999999" width="100%" height="30">
+<tr>
+<td align="center" class="id4"> <a href="home.html">Home</a></td>
+<td align="center" class="id4"><a href="about.html">About us</a></td>
+<td align="center" class="id4"><a href="contact.html">Contact</a></td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+
+
+<table align="left" bgcolor="#999999" border="2" bordercolor="#FF0000" width="30%" height="70%">
+<tr valign="top">
+<td height="337">
+<form name="f1" action="loginval.jsp" method="post" onSubmit="return fun1()">
+<table align="center"  bgcolor="#CC0000" width="100%" height="135">
+<tr><p align="center" class="id4">CUSTOMER LOGIN</p></tr>
+<tr>
+<td class="id3">Username :</td>
+<td><input type="text" name="cuser"></td>
+</tr>
+<tr>
+<td class="id3">Password :</td>
+<td><input type="password" name="cpass"></td>
+</tr>
+<tr><td></td><td class="id3"><a href="forgot.jsp">Forgot your passsword?</a></td></tr>
+<tr><td height="61" class="id3"><a href="reg.html">Sign Up</a></td>
+<td><input type="submit" name="sub" value="Login">&nbsp;&nbsp; <input type="reset" name="reset" value="Clear"></td></tr>
+</table>
+</form>
+<p>&nbsp;</p>
+<form action="login1val.jsp" name="f2" onSubmit="return fun2()" method="post">
+<table align="center" bgcolor="#CC0000" width="100%" height="143">
+<tr><p align="center" class="id4">ADMINISTRATOR LOGIN</p></tr>
+
+<tr>
+<td class="id3">Username :</td>
+<td><input type="text" name="auser"></td>
+</tr>
+<tr>
+<td class="id3">Password :</td>
+<td><input type="password" name="apass"></td>
+</tr>
+<tr><td height="69"></td>
+<td><input type="submit" name="sub" value="Login">&nbsp;&nbsp; <input type="reset" name="reset" value="Clear"></td></tr>
+
+</table>
+</form>
+</td>
+</tr>
+
+</table>
+<form action="#" onSubmit="return val()">
+<table align="center" bgcolor="#999999" border="3" bordercolor="#FF0000" width="61%" height="448" >
+
+<tr valign="top"><td height="394"><p class="id5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHOP <input type="submit" name="sub" value="ONLINE"> FROM YOUR HOME  </p>
+      <p class="id2">&nbsp;&nbsp;We provide electronic goods and Computer products right in your home.  </p>
+      <table align="left"  width="45%" height="300">
+	  <tr>
+          <td align="center" class="id4"><b>COMPUTER PRODUCTS</b></td>
+        </tr>
+		<tr><td align="center" class="id4">* Monitors<font color="#999999">........</font></td></tr>
+				<tr><td align="center" class="id4">* Mouses<font color="#999999">..........</font></td></tr>
+		<tr><td align="center" class="id4">* CPU<font color="#999999">...............</font></td></tr>
+		<tr><td align="center" class="id4">* Key Board<font color="#999999">.....</font></td></tr>
+		<tr><td align="center" class="id4">* Web cameras</td></tr>
+
+	  </table>
+	  <table align="right"  width="45%" height="300">
+	  <tr><td align="center" class="id4"><b>ELECTRONIC GOODS</b></td></tr>
+	  <tr><td align="center" class="id4">* Televisions<font color="#999999">..........</font></td></tr>
+	  	  <tr><td align="center" class="id4">* Home Appliances</td></tr>
+	  <tr><td align="center" class="id4">* DVD players<font color="#999999">.......</font></td></tr>
+	  <tr><td align="center" class="id4">* Fans<font color="#999999">...................</font></td></tr>
+	  <tr><td align="center" class="id4">* Glasses<font color="#999999">.............</font></td></tr>
+	  </table>
+	  <p>&nbsp;</p>
+	  <table align="center" width="90%" height="40" bgcolor="#CC0000" ><tr><td class="id2">&nbsp;&nbsp;&nbsp;Phone Orders : 044-749638964&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free Home delivery</td></tr></table>
+	  </td></tr>
+	  
+</table>
+</form>
+</body>
+</html>
